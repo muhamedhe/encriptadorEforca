@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Desencripter</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>  
+</head>
+
+<body>
+	<header>
+		<div class="caixa">
+			<h1><img src="logo.png" alt="Logo do projeto"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Encriptador</a></li>
+					<li><a href="forca/index.html">Forca</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<form action="#" onsubmit="verify()">
+			<div id="div1">
+			<label for="key" >Insira o texto:</label>
+			<input type="text" id="key" class="input-padrao" required />
+			<fieldset class="selecao">
+				<legend style="margin-bottom: 10px;">Escolha a função:</legend>
+				<label for="radio-encriptar" class="radioSelect">
+					<input type="radio" name="encript" value="encriptar" id="radio-encriptar" required>
+					Encriptar</label>
+				<label for="radio-desencriptar" class="radioSelect">
+					<input type="radio" name="encript" value="desencriptar" id="radio-desencriptar">
+					Desencriptar</label>
+			</fieldset>
+			</div>
+			<div id="div2">
+			<textarea cols="50" rows="10" id="display" class="input-padrao" readonly></textarea>
+			</div>
+			<input type="submit" value=Enviar class="enviar">
+		</form>
+	</main>
+
+	<footer>
+		<img src="forca/alura-logo.png" alt="Logo do projeto">
+		<p class="copyright">&copy; Copyright Muhamedhe Weskley</p>
+	</footer>
+</body>
+
+</html>

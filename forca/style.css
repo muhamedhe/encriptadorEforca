@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+body {
+    background-image: url('bg.jpg');
+    background-attachment: fixed;
+    font-family: 'Nabla', serif;
+    min-width: 800px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.logo {
+    position: relative;
+    top: 15px;
+    left: 40px;
+    margin: auto;
+    width: 50px;
+
+}
+
+.caixa h1 {
+    margin: auto;
+}
+
+nav {
+	position: relative;
+	left: 50%; 
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 0 0 15px;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+
+#div-canvas{
+    position: relative;
+    margin: auto;
+    width: fit-content;
+}
+
+#forca {
+    background: none; 
+}
+
+ 
